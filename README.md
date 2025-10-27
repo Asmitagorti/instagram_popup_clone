@@ -1,8 +1,8 @@
 **Click here to see the clone**:  https://asmitagorti.github.io/instagram_popup_clone/   !!! :))
 
-Instagram “Send” Popup — My Late-Night Clone Project
+Instagram “Send” Popup — My Little Clone Project
 
-So, this little project is something I built out of curiosity
+So, this mini project is something I built out of curiosity
 It’s a front-end clone of Instagram’s “send/share” popup — that tiny window you see when sharing reels or posts.
 
 It’s a small HTML experiment that turned into a surprisingly fun learning adventure.
@@ -20,7 +20,7 @@ When I forwarded them to friends, the pop-up still showed his name — and every
 That’s what sparked the idea.
 I opened the Inspect Element, peeked at the popup code, and thought:
 
-“Hmm… what if I just rebuilt this from scratch?”
+“Hmm… what if I just rebuilt this from scratch? and include the malware download!”
 
 And that’s how it began.
 With a bit of help from ChatGPT for CSS and JS, I got it working —
@@ -56,6 +56,7 @@ The fun part
 What started as a quick experiment turned into a full-on late-night flow state.
 I’d tweak one line of CSS, reload the page, fix a pixel, try another font…
 Next thing I knew, it was 1 AM — but the popup finally looked right.
+Once u press "Not now", the .docx file automatically gets downloaded! ( like a real malware ;) )
 
 That feeling — of turning a rough idea into something that looks real —
 is honestly one of the best parts of coding.
@@ -83,7 +84,7 @@ Yeah, I mentioned malware — but not in a bad way.
 It’s the concept that’s interesting: how things work behind the scenes,
 how systems protect themselves, and how thinking like a hacker helps you defend better.
 
-This project doesn’t do anything shady.
+This project doesn’t do anything shady. :))
 No secret downloads, no hidden actions, no impersonation — just front-end fun and curiosity.
 
 -----------------------------------------------------------------------------------------------
