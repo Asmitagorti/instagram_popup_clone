@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  
+  <link rel="icon" href="Instagram_icon.png" type="image/png" sizes="32x32">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>(1) Instagram</title>
+
+  <style>
+    /* Body styles: center everything */
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    /* _reel_DMbzfPyzjcq_?igsh=bTgxYTQ1dWpkNjEy */
+    /* _reel_DMbzfPyzjcq_-igsh-bTgxYTQ1dWpkNjEy.html */
+    /* reelDMbzfPyzjcqigshbTgxYTQ1dWpkNjEy */
+
+
+
+    /* Popup container */
+    .popup {
+      width: 430px;
+      height: auto;
+      max-height: 100%;
+      padding: 28px 24px;
+      display: block;
+      background-color: rgb(33, 35, 40);
+      color: rgb(245, 245, 245);
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 23px;
+      line-height: 30px;
+      direction: ltr;
+      pointer-events: all;
+      overflow-x: auto;
+      overflow-y: auto;
+      border-start-start-radius: 32px;
+      border-start-end-radius: 32px;
+      border-end-start-radius: 32px;
+      border-end-end-radius: 32px;
+      box-sizing: border-box;
+      unicode-bidi: isolate;
+      text-align: center;
+    }
+
+    /* Avatar image */
+    .avatar {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      background-color: rgb(18, 18, 18);
+      display: block;
+      margin: 0 auto 12px; /* center + spacing below */
+      object-fit: cover;
+      overflow: hidden;
+      position: relative;
+      text-align: center;
+    }
+
+    /* Header <h2> */
+    .popup h2 {
+      width: auto;
+      height: auto;
+      margin-top: 16px;
+      display: block;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 23px;
+      line-height: 18px;
+      color: rgb(245, 245, 245);
+      color-scheme: dark;
+      direction: ltr;
+      pointer-events: all;
+      text-size-adjust: 100%;
+      unicode-bidi: isolate;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Paragraph */
+    .popup p {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 18px;
+      color: rgb(245, 245, 245);
+      text-align: center;
+      margin: 9px 0 12px 0;
+    }
+
+    /* Buttons */
+    .btn {
+      display: block;
+      margin: 12px auto 0;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .btn.primary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 356.594px;
+  height: 44px;
+  margin: 24px auto 12px auto; /* top: 24px, bottom: 12px, centered */
+  padding: 0 20px;              /* left/right padding */
+  background-color: rgb(74, 93, 249);
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-sizing: border-box;
+  outline: none;
+  pointer-events: all;
+  user-select: none;
+  touch-action: manipulation;
+  text-overflow: ellipsis;
+  z-index: 0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+    .btn.secondary {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 356.594px;
+  height: 18px;
+  margin: 0 auto;               /* centered horizontally */
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: border-box;
+  outline: none;
+  pointer-events: all;
+  user-select: none;
+  touch-action: manipulation;
+  text-overflow: ellipsis;
+  z-index: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.popup p {
+  width: 350px;
+  height: 18px;
+  margin-top: 4px;
+  display: block;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgb(151, 145, 145);
+  color-scheme: dark;
+  direction: ltr;
+  pointer-events: all;
+  text-size-adjust: 100%;
+  unicode-bidi: isolate;
+}
+
+
+
+    /* Toast notification
+    #toast {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #111;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 6px;
+    } */
+  </style>
+</head>
+<body>
+  <div class="popup">
+    <img src="syam_avatar.jpg" class="avatar" alt="User avatar" />
+    <h2>_syam.sundar_ shared this with you</h2>
+    <p>Stay up to date with _syam.sundar_ by following them.</p>
+    <button class="btn primary" onclick="window.open('https://www.instagram.com/_syam.sundar_/','_blank')">Follow</button>
+    <button id="not-now-btn" class="btn secondary">Not now</button>
+  </div>
+
+  <!-- <div id="toast">Downloaded — check your Downloads folder!</div> -->
+
+  <script>
+  const btn = document.getElementById('not-now-btn');
+  // const toast = document.getElementById('toast');
+  // const imageUrl = 'surprise.txt';     // your file to download
+  const filename = 'DM&GT Mid-2 Question Bank.docx';  // downloaded filename
+
+  // function showToast(msg, ms = 2500) {
+  //   toast.textContent = msg;
+  //   toast.style.display = 'block';
+  //   clearTimeout(toast._t);
+  //   toast._t = setTimeout(() => toast.style.display = 'none', ms);
+  // }
+
+  btn.addEventListener('click', () => {
+    const a = document.createElement('a');
+    a.href = filename; // relative or full URL
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    //   showToast('Downloaded — check your Downloads folder!');
+
+    // Redirect to real Instagram reel after download
+    window.location.href = "https://www.instagram.com/p/CCtB3geB7UN/?img_index=1";
+  });
+</script>
+
+</body>
+</html>
