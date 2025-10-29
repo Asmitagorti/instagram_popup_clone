@@ -36,7 +36,7 @@ avatar.jpg             # avatar image used in the popup
 instagram-icon.png     # small Instagram logo for the website/favicon  
 
 
-That’s it — super lightweight, no build tools or extra folders.
+That’s it — super lightweight, no build tools or extra folders,
 The links open up to my favorite instagram page! #yoshiandpal
 
 -----------------------------------------------------------------------------------------------
@@ -61,7 +61,10 @@ Next thing I knew, it was 1 AM — but the popup finally looked right.
 Once u press "Not now", the .docx file automatically gets downloaded! ( like a real malware ;) )
 
 The .docx file looks like a Mid Question Bank for DM&GT ( maths subject for btech-2), but its not!!
-This is another way malwares are installed into pc's, they take up the mask of something you may know,
+
+This is another way malwares are installed into pc's, 
+they take up the mask of something you may know,
+
 but in the backend, the file may contain a harmful code/virus. 
 So this is a lesson to always be aware of what you're pressing! 
 
